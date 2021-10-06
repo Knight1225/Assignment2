@@ -1,14 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
+
 namespace UnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class RectangleTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Postitive()
         {
+            var R = new Rectanle();
+
+            R.Rectangle(2,2);
         }
     }
 }
